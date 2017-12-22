@@ -1,6 +1,6 @@
-# e107 Agency Boostrap 4 for e107 v2.7 theme
+# e107 Agency Bootstrap 4 for e107 v2.7 theme
 
-Based on free Agency Boostrap 4  HTML theme 
+Based on free Agency Bootstrap 4  HTML theme 
 https://startbootstrap.com/template-overviews/agency/
 
 
