@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="agency2" version="2.0.0" date="2017-12-20" compatibility="2.1.7">
+	<author name ="e107 Inc" email="e107inc@something.com" url="https://github.com/e107inc/agency2" />
+	<summary>Agency Bootstrap 4 e107 theme</summary>
+	<description>Agency 2 is an agency portfolio theme for Bootstrap 4 created by Start Bootstrap. This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline.</description>
+	<category>generic</category>
+	<plugins>
+		<plugin name='gallery' url='core' />
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>clean</word>
+		<word>business</word>
+	</keywords>
+	<screenshots>
+		<image>preview_frontend.jpg</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='homepage' title='Homepage One Page'  >
+			<custompages>FRONTPAGE</custompages>	
+		</layout>
+     <layout name='full' title='Full width page' >
+			<custompages>login</custompages>
+		</layout>
+		<layout name='sidebar_right' title='Blog sidebar-right' default='true'   >
+			<custompages>/news</custompages>	
+		</layout>
+	</layouts>
+</e107Theme>

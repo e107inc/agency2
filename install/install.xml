@@ -1,0 +1,1475 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.2 (git)" timestamp="1465161865" >
+	<database>
+	<dbTable name="generic">
+		<item>
+			<field name="gen_id">1</field>
+			<field name="gen_type">wmessage</field>
+			<field name="gen_datestamp">1145848343</field>
+			<field name="gen_user_id">1</field>
+			<field name="gen_ip">Welcome To Our Studio!</field>
+			<field name="gen_intdata">0</field>
+			<field name="gen_chardata"><![CDATA[[html]<p>IT&#039;S NICE TO MEET YOU</p>
+<p class=&quot;page-scroll&quot;><a href=&quot;#ourservices&quot; class=&quot;btn btn-primary btn-xl text-uppercase js-scroll-trigger&quot;>Tell Me More</a></p>[/html]]]></field>
+		</item>
+	</dbTable>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">1</field>
+			<field name="page_title">Project Name Round Icons</field>
+			<field name="page_sef">portfolio_1</field>
+			<field name="page_chapter">4</field>
+			<field name="page_metakeys">Design,Book,e107,flat</field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+<p><strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href=&quot;https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc&quot;>RoundIcons.com</a>, or you can purchase the 1500 icon set <a href=&quot;https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc&quot;>here</a>.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170800</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">0</field>
+			<field name="menu_name"></field>
+			<field name="menu_title">Round Icons</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/portfolio/roundicons.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">2</field>
+			<field name="page_title">Project name  Startup Framework</field>
+			<field name="page_sef">portfolio_02</field>
+			<field name="page_chapter">5</field>
+			<field name="page_metakeys">Design,Book,e107,flat</field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p><a href=&quot;http://designmodo.com/startup/?u=787&quot;>Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+<p>You can preview Startup Framework <a href=&quot;http://designmodo.com/startup/?u=787&quot;>here</a>.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="menu_name"></field>
+			<field name="menu_title">Startup Framework</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/portfolio/startup-framework.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">7</field>
+			<field name="page_title">Privacy Policy</field>
+			<field name="page_sef">privacy-policy</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<h2>What is Lorem Ipsum?</h2>
+<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1484747260</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">51</field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">8</field>
+			<field name="page_title">Terms of Use</field>
+			<field name="page_sef">terms-of-use</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<h2>What is Lorem Ipsum?</h2>
+<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1484747296</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">52</field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">3</field>
+			<field name="page_title">Project name  Treehouse</field>
+			<field name="page_sef">portfolio_03</field>
+			<field name="page_chapter">5</field>
+			<field name="page_metakeys">Design,Book,e107,flat</field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Treehouse is a free PSD web template built by <a href=&quot;https://www.behance.net/MathavanJaya&quot;>Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+<p>You can download the PSD template in this portfolio sample item at <a href=&quot;http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/&quot;>FreebiesXpress.com</a>.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">20</field>
+			<field name="menu_name"></field>
+			<field name="menu_title">Treehouse</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/portfolio/treehouse.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">4</field>
+			<field name="page_title">Project name Golden</field>
+			<field name="page_sef">portfolio_04</field>
+			<field name="page_chapter">5</field>
+			<field name="page_metakeys">Design,Book,e107,flat</field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Start Bootstrap&#039;s agency2 theme is based on Golden, a free PSD website template built by <a href=&quot;https://www.behance.net/MathavanJaya&quot;>Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+<p>You can download the PSD template in this portfolio sample item at <a href=&quot;http://freebiesxpress.com/gallery/golden-free-one-page-web-template/&quot;>FreebiesXpress.com</a>.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">30</field>
+			<field name="menu_name"></field>
+			<field name="menu_title">Golden</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/portfolio/golden.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">5</field>
+			<field name="page_title">Project name  Escape</field>
+			<field name="page_sef">portfolio_05</field>
+			<field name="page_chapter">5</field>
+			<field name="page_metakeys">Design,Book,e107,flat</field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Escape is a free PSD web template built by <a href=&quot;https://www.behance.net/MathavanJaya&quot;>Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+<p>You can download the PSD template in this portfolio sample item at <a href=&quot;http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/&quot;>FreebiesXpress.com</a>.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">40</field>
+			<field name="menu_name"></field>
+			<field name="menu_title">Escape</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/portfolio/escape.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">13</field>
+			<field name="page_title">BOOTSTRAP IS BASED ON THESE STANDARDS</field>
+			<field name="page_sef">call-to-action</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<div class=&quot;col-sm-3 col-xs-6 text-center&quot;><i class=&quot;icon-lg ion-social-html5-outline&quot;></i></div>
+<div class=&quot;col-sm-3 col-xs-6 text-center&quot;><i class=&quot;icon-lg ion-social-sass&quot;></i></div>
+<div class=&quot;col-sm-3 col-xs-6 text-center&quot;><i class=&quot;icon-lg ion-social-javascript-outline&quot;></i></div>
+<div class=&quot;col-sm-3 col-xs-6 text-center&quot;><i class=&quot;icon-lg ion-social-css3-outline&quot;></i></div>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1483190718</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">60</field>
+			<field name="menu_name">call-to-action</field>
+			<field name="menu_title">Get Started</field>
+			<field name="menu_text"></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">call-to-action</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url">http://www.bootstrapzero.com/bootstrap-template/landing-zero</field>
+			<field name="menu_button_text">Free Download</field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">14</field>
+			<field name="page_title">Products</field>
+			<field name="page_sef">products</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1483194045</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">70</field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">15</field>
+			<field name="page_title"></field>
+			<field name="page_sef">footer-menu-2</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1483211782</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">100</field>
+			<field name="menu_name">footer-menu-2</field>
+			<field name="menu_title">Site Tagline</field>
+			<field name="menu_text"><![CDATA[[html]<p>{SITETAG}</p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">16</field>
+			<field name="page_title"></field>
+			<field name="page_sef">footer-menu-4</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1483211782</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">110</field>
+			<field name="menu_name">footer-menu-4</field>
+			<field name="menu_title">Follow</field>
+			<field name="menu_text"><![CDATA[[html]<p>{XURL_ICONS}</p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">6</field>
+			<field name="page_title">Project name  Dreams</field>
+			<field name="page_sef">portfolio_06</field>
+			<field name="page_chapter">5</field>
+			<field name="page_metakeys">Design,Book,e107,flat</field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Dreams is a free PSD web template built by <a href=&quot;https://www.behance.net/MathavanJaya&quot;>Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+<p>You can download the PSD template in this portfolio sample item at <a href=&quot;http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/&quot;>FreebiesXpress.com</a>.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">50</field>
+			<field name="menu_name"></field>
+			<field name="menu_title">Dreams</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/portfolio/dreams.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">9</field>
+			<field name="page_title"></field>
+			<field name="page_sef">vertical-feature-1</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1483189642</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">120</field>
+			<field name="menu_name">vertical-feature-2</field>
+			<field name="menu_title">Free</field>
+			<field name="menu_text"><![CDATA[[html]<p>Yes, please. Grab it for yourself, and make something awesome with this.</p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon">ion-ios-cloud-download-outline.glyph</field>
+			<field name="menu_template">verticalfeatures-fadeIn</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">10</field>
+			<field name="page_title"></field>
+			<field name="page_sef">vertical-feature-1</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1483189642</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">130</field>
+			<field name="menu_name">vertical-feature-3</field>
+			<field name="menu_title">Unique</field>
+			<field name="menu_text"><![CDATA[[html]<p>Because you don&#039;t want your Bootstrap site, to look like a Bootstrap site.</p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon">ion-ios-snowy.glyph</field>
+			<field name="menu_template">verticalfeatures-fadeInRight</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">11</field>
+			<field name="page_title"></field>
+			<field name="page_sef">vertical-feature-1</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1483189642</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">140</field>
+			<field name="menu_name">vertical-feature-4</field>
+			<field name="menu_title">Popular</field>
+			<field name="menu_text"><![CDATA[[html]<p>There&#039;s good reason why Bootstrap is the most used frontend framework in the world.</p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon">ion-ios-heart-outline.glyph</field>
+			<field name="menu_template">verticalfeatures-fadeIn</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">12</field>
+			<field name="page_title"></field>
+			<field name="page_sef">vertical-feature-1</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1483189642</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">150</field>
+			<field name="menu_name">vertical-feature-5</field>
+			<field name="menu_title">Tested</field>
+			<field name="menu_text"><![CDATA[[html]<p>Bootstrap is matured and well-tested. It&#039;s a stable codebase that provides consistency.</p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon">ion-ios-flask-outline.glyph</field>
+			<field name="menu_template">verticalfeatures-fadeInRight</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">17</field>
+			<field name="page_title">Benefits</field>
+			<field name="page_sef">benefits</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1483194045</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">100</field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">18</field>
+			<field name="page_title"></field>
+			<field name="page_sef">home-services-introduction</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1484824381</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">180</field>
+			<field name="menu_name">home-services-introduction</field>
+			<field name="menu_title">SERVICES</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet consectetur.</p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">home-introduction-text</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">19</field>
+			<field name="page_title"></field>
+			<field name="page_sef">home-service-1</field>
+			<field name="page_chapter">10</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1484824736</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">190</field>
+			<field name="menu_name">home-service-1</field>
+			<field name="menu_title">E-Commerce</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon">shopping-cart.glyph</field>
+			<field name="menu_template">home-services</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url">fa-lock</field>
+			<field name="menu_button_text">fa-shopping-cart</field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">20</field>
+			<field name="page_title"></field>
+			<field name="page_sef">home-service-2</field>
+			<field name="page_chapter">10</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1484824813</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">200</field>
+			<field name="menu_name">home-service-2</field>
+			<field name="menu_title">Responsive Design</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon">laptop.glyph</field>
+			<field name="menu_template">home-services</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text">fa-laptop</field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">21</field>
+			<field name="page_title"></field>
+			<field name="page_sef">home-service-3</field>
+			<field name="page_chapter">10</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1484824868</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">210</field>
+			<field name="menu_name">home-service-3</field>
+			<field name="menu_title">Web Security</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon">lock.glyph</field>
+			<field name="menu_template">home-services</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">22</field>
+			<field name="page_title">Our Humble Beginnings</field>
+			<field name="page_sef">our-humble-beginnings</field>
+			<field name="page_chapter">9</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</span></p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1484828496</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">110</field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/about/1.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">timeline</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields">{
+    "facebook": "",
+    "twitter": "",
+    "linkedin": ""
+}</field>
+		</item>
+		<item>
+			<field name="page_id">23</field>
+			<field name="page_title">An agency2 is Born</field>
+			<field name="page_sef">an-agency-is-born</field>
+			<field name="page_chapter">9</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1484828849</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">120</field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/about/2.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">timeline</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">24</field>
+			<field name="page_title">Transition to Full Service</field>
+			<field name="page_sef">transition-to-full-service</field>
+			<field name="page_chapter">9</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</span></p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1484829012</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">130</field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/about/3.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">timeline</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">25</field>
+			<field name="page_title">Phase Two Expansion</field>
+			<field name="page_sef">phase-two-expansion</field>
+			<field name="page_chapter">9</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</span></p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1484829038</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">140</field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/about/4.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">timeline</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields"></field>
+		</item>
+		<item>
+			<field name="page_id">26</field>
+			<field name="page_title">Kay Garland</field>
+			<field name="page_sef">kay-garland</field>
+			<field name="page_chapter">8</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1485006059</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">170</field>
+			<field name="menu_name"></field>
+			<field name="menu_title">Lead Designer</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/team/1.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">teammember</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields">{
+    "facebook": "https:\/\/www.facebook.com",
+    "twitter": "https:\/\/www.twitter.com",
+    "linkedin": "https:\/\/www.linkedin.com"
+}</field>
+		</item>
+		<item>
+			<field name="page_id">27</field>
+			<field name="page_title">Larry Parker</field>
+			<field name="page_sef">larry-parker</field>
+			<field name="page_chapter">8</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1485006121</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">160</field>
+			<field name="menu_name"></field>
+			<field name="menu_title">Lead Marketer</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/team/2.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">teammember</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields">{
+    "facebook": "https:\/\/www.facebook.com",
+    "twitter": "https:\/\/www.twitter.com",
+    "linkedin": "https:\/\/www.linkedin.com"
+}</field>
+		</item>
+		<item>
+			<field name="page_id">28</field>
+			<field name="page_title">Diana Pertersen</field>
+			<field name="page_sef">diana-pertersen</field>
+			<field name="page_chapter">8</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1485006161</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">150</field>
+			<field name="menu_name"></field>
+			<field name="menu_title">Lead Developer</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}agency2/install/team/3.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">teammember</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+			<field name="page_fields">{
+    "facebook": "https:\/\/www.facebook.com",
+    "twitter": "https:\/\/www.twitter.com",
+    "linkedin": "https:\/\/www.linkedin.com"
+}</field>
+		</item>
+	</dbTable>
+	<dbTable name="page_chapters">
+		<item>
+			<field name="chapter_id">1</field>
+			<field name="chapter_parent">0</field>
+			<field name="chapter_name">General</field>
+			<field name="chapter_sef">general</field>
+			<field name="chapter_meta_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et tempor odio. Quisque volutpat lorem nec lectus congue suscipit. In hac habitasse platea dictumst. Etiam odio nisi, egestas vitae amet.</field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">0</field>
+			<field name="chapter_template"></field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields"></field>
+		</item>
+		<item>
+			<field name="chapter_id">2</field>
+			<field name="chapter_parent">1</field>
+			<field name="chapter_name">Information</field>
+			<field name="chapter_sef">information</field>
+			<field name="chapter_meta_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut nunc ac neque egestas ullamcorper. In convallis semper hendrerit. Etiam non dolor nisl, varius facilisis dui. Nunc egestas massa nunc.</field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">1</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields"></field>
+		</item>
+		<item>
+			<field name="chapter_id">3</field>
+			<field name="chapter_parent">0</field>
+			<field name="chapter_name">Portfolio</field>
+			<field name="chapter_sef">portfolio</field>
+			<field name="chapter_meta_description">Lorem ipsum dolor sit amet consectetur.</field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">200</field>
+			<field name="chapter_template">portfolio</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields"></field>
+		</item>
+		<item>
+			<field name="chapter_id">6</field>
+			<field name="chapter_parent">3</field>
+			<field name="chapter_name">Books</field>
+			<field name="chapter_sef">books</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">201</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields"></field>
+		</item>
+		<item>
+			<field name="chapter_id">10</field>
+			<field name="chapter_parent">7</field>
+			<field name="chapter_name">Services</field>
+			<field name="chapter_sef">home-services</field>
+			<field name="chapter_meta_description">Lorem ipsum dolor sit amet consectetur.</field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">601</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields"></field>
+		</item>
+		<item>
+			<field name="chapter_id">4</field>
+			<field name="chapter_parent">3</field>
+			<field name="chapter_name">Graphic Design</field>
+			<field name="chapter_sef">graphic-design</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">202</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "introtext": {
+        "title": "Intro Project Text",
+        "type": "text",
+        "writeParms": "size=\"block-level\""
+    }
+}</field>
+		</item>
+		<item>
+			<field name="chapter_id">5</field>
+			<field name="chapter_parent">3</field>
+			<field name="chapter_name">Web Design</field>
+			<field name="chapter_sef">web-design</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">203</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "introtext": {
+        "title": "Project Intro text",
+        "type": "textarea",
+        "writeParms": ""
+    }
+}</field>
+		</item>
+		<item>
+			<field name="chapter_id">7</field>
+			<field name="chapter_parent">0</field>
+			<field name="chapter_name">Home Page</field>
+			<field name="chapter_sef">home-page</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">600</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields"></field>
+		</item>
+		<item>
+			<field name="chapter_id">8</field>
+			<field name="chapter_parent">7</field>
+			<field name="chapter_name">Our Amazing Team</field>
+			<field name="chapter_sef">our-team</field>
+			<field name="chapter_meta_description">Lorem ipsum dolor sit amet consectetur.</field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">603</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "facebook": {
+        "title": "facebook",
+        "type": "url",
+        "writeParms": "",
+        "help": ""
+    },
+    "twitter": {
+        "title": "twitter",
+        "type": "url",
+        "writeParms": "",
+        "help": ""
+    },
+    "linkedin": {
+        "title": "linkedin",
+        "type": "url",
+        "writeParms": "",
+        "help": ""
+    }
+}</field>
+		</item>
+		<item>
+			<field name="chapter_id">9</field>
+			<field name="chapter_parent">7</field>
+			<field name="chapter_name">About</field>
+			<field name="chapter_sef">timeline</field>
+			<field name="chapter_meta_description">Lorem ipsum dolor sit amet consectetur.</field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">602</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields"></field>
+		</item>
+	</dbTable>
+	<dbTable name="core_media">
+		<item>
+			<field name="media_id">88</field>
+			<field name="media_type">image/jpeg</field>
+			<field name="media_name">aetuts</field>
+			<field name="media_caption">aetuts</field>
+			<field name="media_description"></field>
+			<field name="media_category">gallery_image_2</field>
+			<field name="media_datestamp">1484831108</field>
+			<field name="media_author">1</field>
+			<field name="media_url">{e_THEME}agency2/install/logos/aetuts.jpg</field>
+			<field name="media_size">2063</field>
+			<field name="media_dimensions">200 x 50</field>
+			<field name="media_userclass">0</field>
+			<field name="media_usedby"></field>
+			<field name="media_tags"></field>
+		</item>
+		<item>
+			<field name="media_id">89</field>
+			<field name="media_type">image/jpeg</field>
+			<field name="media_name">creative_market</field>
+			<field name="media_caption">creative market</field>
+			<field name="media_description"></field>
+			<field name="media_category">gallery_image_2</field>
+			<field name="media_datestamp">1484831108</field>
+			<field name="media_author">1</field>
+			<field name="media_url">{e_THEME}agency2/install/logos/creativemarket.jpg</field>
+			<field name="media_size">1766</field>
+			<field name="media_dimensions">200 x 50</field>
+			<field name="media_userclass">0</field>
+			<field name="media_usedby"></field>
+			<field name="media_tags"></field>
+		</item>
+		<item>
+			<field name="media_id">90</field>
+			<field name="media_type">image/jpeg</field>
+			<field name="media_name">designmodo</field>
+			<field name="media_caption">designmodo</field>
+			<field name="media_description"></field>
+			<field name="media_category">gallery_image_2</field>
+			<field name="media_datestamp">1484831109</field>
+			<field name="media_author">1</field>
+			<field name="media_url">{e_THEME}agency2/install/logos/designmodo.jpg</field>
+			<field name="media_size">1696</field>
+			<field name="media_dimensions">200 x 50</field>
+			<field name="media_userclass">0</field>
+			<field name="media_usedby"></field>
+			<field name="media_tags"></field>
+		</item>
+		<item>
+			<field name="media_id">91</field>
+			<field name="media_type">image/jpeg</field>
+			<field name="media_name">envato</field>
+			<field name="media_caption">envato</field>
+			<field name="media_description"></field>
+			<field name="media_category">gallery_image_2</field>
+			<field name="media_datestamp">1484831109</field>
+			<field name="media_author">1</field>
+			<field name="media_url">{e_THEME}agency2/install/logos/envato.jpg</field>
+			<field name="media_size">2040</field>
+			<field name="media_dimensions">200 x 50</field>
+			<field name="media_userclass">0</field>
+			<field name="media_usedby"></field>
+			<field name="media_tags"></field>
+		</item>
+		<item>
+			<field name="media_id">93</field>
+			<field name="media_type">image/jpeg</field>
+			<field name="media_name">themeforest</field>
+			<field name="media_caption">themeforest</field>
+			<field name="media_description"></field>
+			<field name="media_category">gallery_image_2</field>
+			<field name="media_datestamp">1484831109</field>
+			<field name="media_author">1</field>
+			<field name="media_url">{e_THEME}agency2/install/logos/themeforest.jpg</field>
+			<field name="media_size">1689</field>
+			<field name="media_dimensions">200 x 50</field>
+			<field name="media_userclass">0</field>
+			<field name="media_usedby"></field>
+			<field name="media_tags"></field>
+		</item>
+	</dbTable>
+	<dbTable name="core_media_cat">
+		<item>
+			<field name="media_cat_id">15</field>
+			<field name="media_cat_owner">gallery</field>
+			<field name="media_cat_category">gallery_image_2</field>
+			<field name="media_cat_title">clients</field>
+			<field name="media_cat_sef">clients</field>
+			<field name="media_cat_diz"></field>
+			<field name="media_cat_class">0</field>
+			<field name="media_cat_image"></field>
+			<field name="media_cat_order">0</field>
+		</item>
+	</dbTable>
+	<dbTable name="menus">
+		<item>
+			<field name="menu_id">212</field>
+			<field name="menu_name">home-services-introduction</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">31</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">216</field>
+			<field name="menu_name">home-service-1</field>
+			<field name="menu_location">11</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">32</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">217</field>
+			<field name="menu_name">home-service-2</field>
+			<field name="menu_location">12</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">33</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">218</field>
+			<field name="menu_name">home-service-3</field>
+			<field name="menu_location">13</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">34</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+
+		<item>
+			<field name="menu_id">222</field>
+			<field name="menu_name">home-team-introduction</field>
+			<field name="menu_location">4</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">36</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">221</field>
+			<field name="menu_name">home-about-introduction</field>
+			<field name="menu_location">3</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">35</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">228</field>
+			<field name="menu_name">home-portfolio-intro</field>
+			<field name="menu_location">2</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">41</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">230</field>
+			<field name="menu_name">clock_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">2</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">clock_menu/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">231</field>
+			<field name="menu_name">lastseen_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">3</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">online/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">232</field>
+			<field name="menu_name">latestnews_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">4</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">233</field>
+			<field name="menu_name">home-contact-introduction</field>
+			<field name="menu_location">0</field>
+			<field name="menu_order">0</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">42</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">234</field>
+			<field name="menu_name">home-contact-introduction</field>
+			<field name="menu_location">5</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">42</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">238</field>
+			<field name="menu_name">news_categories_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">5</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">239</field>
+			<field name="menu_name">news_months_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"><![CDATA[array (
+  'showarchive' => '1',
+  'year' => '2016',
+)]]></field>
+		</item>
+	</dbTable>
+	<dbTable name="links">
+		<item>
+			<field name="link_id">1</field>
+			<field name="link_name">Home</field>
+			<field name="link_url">index.php</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">0</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">3</field>
+			<field name="link_name">Members</field>
+			<field name="link_url">user.php</field>
+			<field name="link_description"></field>
+			<field name="link_button">icon-user.glyph</field>
+			<field name="link_category">2</field>
+			<field name="link_order">9</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">4</field>
+			<field name="link_name">Submit News</field>
+			<field name="link_url">submitnews.php</field>
+			<field name="link_description"></field>
+			<field name="link_button">icon-upload.glyph</field>
+			<field name="link_category">2</field>
+			<field name="link_order">10</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">253</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">16</field>
+			<field name="link_name">Contact</field>
+			<field name="link_url">#contact</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">13</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">6</field>
+			<field name="link_name">News</field>
+			<field name="link_url">news.php</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">3</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">15</field>
+			<field name="link_name">Portfolio</field>
+			<field name="link_url">#portfolio</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">2</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">12</field>
+			<field name="link_name">Privacy Policy</field>
+			<field name="link_url">page.php?id=7</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">3</field>
+			<field name="link_order">11</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">13</field>
+			<field name="link_name">Terms of Use</field>
+			<field name="link_url">page.php?id=8</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">3</field>
+			<field name="link_order">12</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">14</field>
+			<field name="link_name">Services</field>
+			<field name="link_url">#about</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">1</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+	</dbTable>
+	<dbTable name="news">
+		<item>
+			<field name="news_id">1</field>
+			<field name="news_title">Welcome</field>
+			<field name="news_sef">welcome-to-e107</field>
+			<field name="news_body"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, no meis semper dicunt est, petentium eloquentiam quo ne. At vero facer eam. Ex nam altera oportere, nisl natum prima id pro. Rebum augue dissentiet eum te, vel veniam eirmod option ea, at eos velit repudiare. Ius sumo dicit adolescens id, an cum efficiantur concludaturque.<br><br>Summo sensibus cum ne, et duo torquatos conceptam. No aeque elitr constituam qui. Nostro corpora nec no, diam verterem tincidunt has et. Altera accumsan urbanitas pro eu, ei assum voluptaria sed. Eam tibique nominavi consequuntur an.<br><br>Ei perfecto delicata usu, quo eius noster blandit te. Eu doctus volumus pri. Meis argumentum an nam, eos odio prima autem an. Te complectitur intellegebat pro, ius id alterum maiestatis. Ea facer accusata sed, ex illum antiopam quo.<br><br>Altera putent pri ad, in phaedrum dissentiunt per. Te eum everti dolores. Ut mea vero autem viderer, mel brute harum senserit id. Minim senserit eloquentiam duo in, sit ei justo graece petentium. Sea id homero oporteat invenire.<br><br>Pri semper dolorum ad. Cu eius repudiare eos. Eum in eleifend necessitatibus. Ne has mutat intellegebat.</p>[/html]]]></field>
+			<field name="news_extended"><![CDATA[[html]<p><strong>Lorem ipsum</strong> is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It&#039;s also called placeholder (or filler) text. It&#039;s a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero. Its words and letters have been changed by addition or removal, so to deliberately render its content nonsensical; it&#039;s not genuine, correct, or comprehensible Latin anymore.</p>
+<p>While <strong>lorem ipsum</strong>&#039;s still resembles classical Latin, it actually has no meaning whatsoever. As Cicero&#039;s text doesn&#039;t contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the&nbsp; typographic appearence of European languages, as are digraphs not to be found in the original.</p>[/html]]]></field>
+			<field name="news_meta_keywords">welcome,new website</field>
+			<field name="news_meta_description">Description for Facebook and search engines.</field>
+			<field name="news_datestamp">1454367600</field>
+			<field name="news_author">1</field>
+			<field name="news_category">1</field>
+			<field name="news_allow_comments">0</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary">Example news item summary</field>
+			<field name="news_thumbnail">{e_THEME}agency2/install/news/deer.jpg,,,,</field>
+			<field name="news_sticky">0</field>
+		</item>
+		<item>
+			<field name="news_id">2</field>
+			<field name="news_title">Example News item 2</field>
+			<field name="news_sef">example-news-item-2</field>
+			<field name="news_body"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, no meis semper dicunt est, petentium eloquentiam quo ne. At vero facer eam. Ex nam altera oportere, nisl natum prima id pro. Rebum augue dissentiet eum te, vel veniam eirmod option ea, at eos velit repudiare. Ius sumo dicit adolescens id, an cum efficiantur concludaturque.<br><br>Summo sensibus cum ne, et duo torquatos conceptam. No aeque elitr constituam qui. Nostro corpora nec no, diam verterem tincidunt has et. Altera accumsan urbanitas pro eu, ei assum voluptaria sed. Eam tibique nominavi consequuntur an.<br><br>Ei perfecto delicata usu, quo eius noster blandit te. Eu doctus volumus pri. Meis argumentum an nam, eos odio prima autem an. Te complectitur intellegebat pro, ius id alterum maiestatis. Ea facer accusata sed, ex illum antiopam quo.<br><br>Altera putent pri ad, in phaedrum dissentiunt per. Te eum everti dolores. Ut mea vero autem viderer, mel brute harum senserit id. Minim senserit eloquentiam duo in, sit ei justo graece petentium. Sea id homero oporteat invenire.<br><br>Pri semper dolorum ad. Cu eius repudiare eos. Eum in eleifend necessitatibus. Ne has mutat intellegebat.</p>[/html]]]></field>
+			<field name="news_extended"><![CDATA[[html]<p><strong>Lorem ipsum</strong> is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It&#039;s also called placeholder (or filler) text. It&#039;s a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero. Its words and letters have been changed by addition or removal, so to deliberately render its content nonsensical; it&#039;s not genuine, correct, or comprehensible Latin anymore.</p>
+<p>While <strong>lorem ipsum</strong>&#039;s still resembles classical Latin, it actually has no meaning whatsoever. As Cicero&#039;s text doesn&#039;t contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the&nbsp; typographic appearence of European languages, as are digraphs not to be found in the original.</p>[/html]]]></field>
+			<field name="news_meta_keywords">welcome,new website</field>
+			<field name="news_meta_description">Description for Facebook and search engines.</field>
+			<field name="news_datestamp">1455103800</field>
+			<field name="news_author">1</field>
+			<field name="news_category">1</field>
+			<field name="news_allow_comments">0</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary">Example news item summary</field>
+			<field name="news_thumbnail">{e_THEME}agency2/install/news/colors.jpg,,,,</field>
+			<field name="news_sticky">0</field>
+		</item>
+		<item>
+			<field name="news_id">3</field>
+			<field name="news_title">Example News Items 3</field>
+			<field name="news_sef">example-news-items-3</field>
+			<field name="news_body"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, no meis semper dicunt est, petentium eloquentiam quo ne. At vero facer eam. Ex nam altera oportere, nisl natum prima id pro. Rebum augue dissentiet eum te, vel veniam eirmod option ea, at eos velit repudiare. Ius sumo dicit adolescens id, an cum efficiantur concludaturque.<br><br>Summo sensibus cum ne, et duo torquatos conceptam. No aeque elitr constituam qui. Nostro corpora nec no, diam verterem tincidunt has et. Altera accumsan urbanitas pro eu, ei assum voluptaria sed. Eam tibique nominavi consequuntur an.<br><br>Ei perfecto delicata usu, quo eius noster blandit te. Eu doctus volumus pri. Meis argumentum an nam, eos odio prima autem an. Te complectitur intellegebat pro, ius id alterum maiestatis. Ea facer accusata sed, ex illum antiopam quo.<br><br>Altera putent pri ad, in phaedrum dissentiunt per. Te eum everti dolores. Ut mea vero autem viderer, mel brute harum senserit id. Minim senserit eloquentiam duo in, sit ei justo graece petentium. Sea id homero oporteat invenire.<br><br>Pri semper dolorum ad. Cu eius repudiare eos. Eum in eleifend necessitatibus. Ne has mutat intellegebat.</p>[/html]]]></field>
+			<field name="news_extended"><![CDATA[[html]<p><strong>Lorem ipsum</strong> is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It&#039;s also called placeholder (or filler) text. It&#039;s a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero. Its words and letters have been changed by addition or removal, so to deliberately render its content nonsensical; it&#039;s not genuine, correct, or comprehensible Latin anymore.</p>
+<p>While <strong>lorem ipsum</strong>&#039;s still resembles classical Latin, it actually has no meaning whatsoever. As Cicero&#039;s text doesn&#039;t contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the&nbsp; typographic appearence of European languages, as are digraphs not to be found in the original.</p>[/html]]]></field>
+			<field name="news_meta_keywords">welcome,new website</field>
+			<field name="news_meta_description">Description for Facebook and search engines.</field>
+			<field name="news_datestamp">1455820200</field>
+			<field name="news_author">1</field>
+			<field name="news_category">1</field>
+			<field name="news_allow_comments">0</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary">Example news item summary</field>
+			<field name="news_thumbnail">{e_THEME}agency2/install/news/city.jpg,,,,</field>
+			<field name="news_sticky">0</field>
+		</item>
+	</dbTable>
+	<dbTable name="news_category">
+		<item>
+			<field name="category_id">1</field>
+			<field name="category_name">Misc</field>
+			<field name="category_sef"></field>
+			<field name="category_meta_description"></field>
+			<field name="category_meta_keywords"></field>
+			<field name="category_manager">254</field>
+			<field name="category_icon">news_16.png</field>
+			<field name="category_order">0</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>
