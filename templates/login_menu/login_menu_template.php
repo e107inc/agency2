@@ -195,7 +195,7 @@ if ( ! isset($LOGIN_MENU_LOGGED))
 
 	
 	$LOGIN_MENU_LOGGED = '
-	<ul class="login-menu-logged list-unstyled mb-0>
+	<ul class="login-menu-logged list-unstyled mb-0">
 		{LM_MAINTENANCE}
 		{LM_ADMINLINK}
 		<li class="login-menu-usersettings">{LM_USERSETTINGS}</li>

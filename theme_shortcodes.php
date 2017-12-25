@@ -95,7 +95,7 @@
 					' 
 					<li class="nav-item dropdown">
 				     ' . $loginlink . $sociallogin . '
-					   <div class="dropdown-menu" aria-labelledby="dropdownLoginLink" style="min-width:250px; padding: 15px; padding-bottom: 0px;">
+					   <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownLoginLink" style="min-width:250px; padding: 15px; padding-bottom: 0px;">
 						  ' . $loginform . '
 					   </div>
 				</li>';
@@ -125,7 +125,7 @@
 			   {SETIMAGE: w=20} {USER_AVATAR: shape=circle} ' . USERNAME . ' <b class="caret"></b>
 			  </button>
 			
-			  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+			  <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownMenuLink">
 			    <a class="dropdown-item" href="{LM_USERSETTINGS_HREF}"><span class="fa fa-cog"></span> ' . LAN_SETTINGS . '</a>
 			    <a class="dropdown-item" href="{LM_PROFILE_HREF}"><span class="fa fa-user"></span> ' . LAN_LOGINMENU_13 . '</a>
 			    ' . $adminlink . '
