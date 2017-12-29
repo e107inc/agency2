@@ -6,7 +6,7 @@ if (!defined('e107_INIT')) { exit; }
  
 // Starter for v2. - Bootstrap 
 $LOGIN_TEMPLATE['page']['header'] = ' 
-           <div class="center-block logig-form" id="login-template">
+           <div class="mx-auto logig-form" id="login-template">
            			<div class="center">
 										{LOGO=login}
 								</div> 

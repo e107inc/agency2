@@ -39,7 +39,7 @@ $ONLINE_MENU_TEMPLATE['default']['enabled']                         = "
 																	";
 
 $ONLINE_MENU_TEMPLATE['default']['disabled']                        = "{ONLINE_TRACKING_DISABLED}";
-$ONLINE_MENU_TEMPLATE['default']['online_members_list_extended']    = "{SETIMAGE: w=40}<li class='media'><span class='media-object pull-left'>{ONLINE_MEMBER_IMAGE=avatar}</span><span class='media-body'>{ONLINE_MEMBER_USER} ".LAN_ONLINE_7." {ONLINE_MEMBER_PAGE}</span></li>";
+$ONLINE_MENU_TEMPLATE['default']['online_members_list_extended']    = "{SETIMAGE: w=40}<li class='media'><span class='media-object float-left'>{ONLINE_MEMBER_IMAGE=avatar}</span><span class='media-body'>{ONLINE_MEMBER_USER} ".LAN_ONLINE_7." {ONLINE_MEMBER_PAGE}</span></li>";
 
 
 

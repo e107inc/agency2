@@ -47,8 +47,8 @@ $NEXTPREV_TEMPLATE['bootstrap_end'] 			= "</ul></nav><!-- End of Next/Prev -->";
 $NEXTPREV_TEMPLATE['bootstrap_nav_caption'] 	= '';
 
 $NEXTPREV_TEMPLATE['bootstrap_nav_first'] 		= '<li class="page-item"><a class="page-link first hidden-xs" href="{url}" title="{url_label}">{label}</a></li>';
-$NEXTPREV_TEMPLATE['bootstrap_nav_prev'] 		= '<li class="page-item"><a class="page-linkprev" href="{url}" title="{url_label}">{label}</a></li>';
-$NEXTPREV_TEMPLATE['bootstrap_nav_last'] 		= '<li class="page-item"><a class="page-linklast hidden-xs" href="{url}" title="{url_label}">{label}</a></li>';
+$NEXTPREV_TEMPLATE['bootstrap_nav_prev'] 		= '<li class="page-item"><a class="page-link prev" href="{url}" title="{url_label}">{label}</a></li>';
+$NEXTPREV_TEMPLATE['bootstrap_nav_last'] 		= '<li class="page-item"><a class="page-link last hidden-xs" href="{url}" title="{url_label}">{label}</a></li>';
 $NEXTPREV_TEMPLATE['bootstrap_nav_next'] 		= '<li class="page-item"><a class="page-link next" href="{url}" title="{url_label}">{label}</a></li>';
 
 $NEXTPREV_TEMPLATE['bootstrap_items_start'] 	= '';

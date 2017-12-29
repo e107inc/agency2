@@ -51,7 +51,7 @@ $NAVIGATION_TEMPLATE['main']['end'] = '</ul>';
 
 // Sub menu 
 $NAVIGATION_TEMPLATE['main']['submenu_start'] = '
-		<ul class="dropdown-menu submenu-start submenu-level-{LINK_DEPTH}" role="menu" >
+		<div class="dropdown-menu submenu-start submenu-level-{LINK_DEPTH}" role="menu" >
 ';
 
 // Sub menu Link 
@@ -68,7 +68,7 @@ $NAVIGATION_TEMPLATE['main']['submenu_item_active'] = '
  
 ';
 
-$NAVIGATION_TEMPLATE['main']['submenu_end'] = '</ul>';
+$NAVIGATION_TEMPLATE['main']['submenu_end'] = '</div>';
 
 // Sub menu
 $NAVIGATION_TEMPLATE['main']['submenu_lowerstart'] = '
