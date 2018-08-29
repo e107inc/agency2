@@ -37,7 +37,7 @@ $NEWS_TEMPLATE['list']['item']	= '
     <a href="{NEWSURL}" class="btn btn-primary">'.LAN_READ_MORE.'</a>
   </div>
   <div class="card-footer text-muted">
-    Posted on {NEWSDATE=short} by
+    '.LAN_AG_THEME_19.' {NEWSDATE=short} '.LAN_AG_THEME_20.'
     <a href="{NEWSURL}">{NEWSAUTHOR}</a>
   </div>
 </div>
