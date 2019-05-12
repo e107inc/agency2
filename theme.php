@@ -16,9 +16,7 @@ e107::lan('theme');
 
 // load libraries 
 e107::js("theme", "vendor/popper/popper.min.js", 'jquery');
-// e107::library('load', 'bootstrap');     not able to set theme library
-// e107::css("theme", "vendor/bootstrap/dist/css/bootstrap.min.css" );
- 
+
  
 e107::css('url', 		'https://fonts.googleapis.com/css?family=Montserrat:400,700');
 e107::css('url', 		'https://fonts.googleapis.com/css?family=Kaushan+Script');
@@ -28,8 +26,7 @@ e107::css('url', 		'https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,
 e107::css("theme", "css/agency.css" );
 e107::css("theme", "css/custom.css" );
 
-e107::js("theme", "vendor/bootstrap/dist/js/bootstrap.min.js", 'jquery');
-e107::js("footer", 	'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js', 'jquery'); 
+e107::js("footer", 	'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js', 'jquery');
 //e107::js("theme", 	'js/jqBootstrapValidation.js"', 'jquery');
 //e107::js("theme", 	'js/contact_me.js', 'jquery');
 e107::js("theme", 	'js/agency.min.js', 'jquery'); 
