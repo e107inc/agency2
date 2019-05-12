@@ -4,8 +4,8 @@
  */
 if (!defined('e107_INIT')) { exit; }
 
-define("BOOTSTRAP", 	3);
-define("FONTAWESOME", 	4);
+//define("BOOTSTRAP", 	3);
+//define("FONTAWESOME", 	4);
 define('VIEWPORT', 		"width=device-width, initial-scale=1.0");
  
 /* @see https://www.cdnperf.com */
@@ -17,10 +17,7 @@ e107::lan('theme');
 // load libraries 
 e107::js("theme", "vendor/popper/popper.min.js", 'jquery');
 // e107::library('load', 'bootstrap');     not able to set theme library
-e107::css("theme", "vendor/bootstrap/dist/css/bootstrap.min.css" );
-
-
-e107::library('load', 'fontawesome');
+// e107::css("theme", "vendor/bootstrap/dist/css/bootstrap.min.css" );
  
  
 e107::css('url', 		'https://fonts.googleapis.com/css?family=Montserrat:400,700');
@@ -79,139 +76,164 @@ define('PRE_EXTENDEDSTRING', '<br />');
 
 $imagepath = e_THEME_ABS.'agency2/install/';
 
-/**
- * @param string $caption
- * @param string $text
- * @param string $id : id of the current render
- * @param array $info : current style and other menu data. 
- */
-function tablestyle($caption, $text, $id='', $info=array()) 
+
+class agency2_theme
 {
-//	global $style; // no longer needed. 
-	
-	$style = $info['setStyle'];
-	
-	echo "<!-- tablestyle: style=".$style." id=".$id." -->\n\n";
-	
-	$type = $style;
-	if(empty($caption))
-	{
-		$type = 'box';
-	}
-	
-	if($style == 'navdoc' || $style == 'none')
-	{
-		echo $text;
-		return;
-	}
-	
-	if ($id == 'wm') // Example - If rendered from 'welcome message'
-	{
-		echo '
-	      <div class="intro-lead-in">' . $caption . '</div>
-	      <div class="intro-heading">' . $text . '</div>';
-		return;
-	}
-	
-	/* need be checked */
-	if($style == 'contact')
-	{
-		//todo Find a place for the sub-heading (but not the page/menu table) possibly theme prefs.
 
-		echo '<div class="col-lg-12 text-center">
-                    <h2 class="section-heading">'.$caption.'</h2>
-                    <h3 class="section-subheading text-muted">'.e107::pref('theme', 'contactsubtitle','').'</h3>
-                </div>';
+	/**
+	 * @param string $caption
+	 * @param string $text
+	 * @param string $id : id of the current render
+	 * @param array $info : current style and other menu data.
+	 */
+	function tablestyle($caption, $text, $id='', $info=array())
+	{
 
-	  echo '
-      <div class="row">
-          <div class="col-lg-8 mx-auto text-center"> '.$text.'
-          </div>
-      </div>';	
-		return;
-	}
-	
-	if($style == 'footer')
-	{
-		echo '<h3>'.$caption.'</h3>'.$text;	
-		return;
-	}
-	
-	if($style == 'col-md-4' || $style == 'col-md-6' || $style == 'col-md-8')
-	{
-		
-		if(!empty($caption))
+		$style = $info['setStyle'];
+
+		echo "<!-- tablestyle: style=".$style." id=".$id." -->\n\n";
+
+
+		if ($id == 'wm') // Example - If rendered from 'welcome message'
 		{
-            echo '<h3>'.$caption.'</h3>';
+			echo '
+		      <div class="intro-lead-in">' . $caption . '</div>
+		      <div class="intro-heading">' . $text . '</div>';
+			return;
 		}
 
-		echo $text;
-		return;	
-		
-	}
-	
-	if($id == 'news_latest_menu' OR $id == 'lastseen' OR  $id == 'news_categories_menu' OR $id == "news_months_menu" 
-	OR $id == 'comment_menu') 
-	{
-   echo '<div class="card my-4">
-            <h5 class="card-header">'.$caption.'</h5>
-             
-              '.$text.'
-             
-          </div>';
-		return;	
-	}
- 	  		
-	if($style == 'menu')
-	{
-	
-   echo '<div class="card my-4">
-            <h5 class="card-header">'.$caption.'</h5>
-            <div class="card-body">
-              '.$text.'
-            </div>
-          </div>';
-		return;	
- 
-	}	
-	
-	
-	if($style == 'portfolio')
-	{
-		 echo '
-		 <div class="col-lg-4 col-md-4 col-sm-6">
-            '.$text.'
-		</div>';	
-		return;
-	}
+		// specific menu styles.
+		if( $id == 'lastseen'
+		|| $id == 'news_categories_menu'
+		|| $id == "news_months_menu"
+		|| $id == 'comment_menu')
+		{
+	        echo '<div class="card my-4">
+	            <h5 class="card-header">'.$caption.'</h5>
+	             
+	              '.$text.'
+	             
+	          </div>';
 
-	if($style == 'notags')
-	{
-	  echo str_replace(array("<p>","</p>"), "", $text);
-		return;
-	}
-	
-	if($style == 'notitle')
-	{
-	  echo $text;
-		return;
-	}
+			return null;
+		}
 
 
-	// default.
-	if(!empty($caption))
-	{
-		echo '<h2 class="caption">'.$caption.'</h2>';
+		// As defined by {SETSTYLE} within the template.
+		switch($style)
+		{
+
+			case "section":
+				echo '<section>
+				<div class="container">';
+
+					if(!empty($caption))
+					{
+						echo '<div class="row">
+							<div class="col-lg-12 text-center">
+								<h2 class="section-heading">'.$caption.'</h2>';
+
+						if(!empty($info['title'])) // see $ns->setContent();
+						{
+							echo '<h3 class="section-subheading text-muted">'.$info['title'].'</h3>';
+						}
+
+						echo '</div></div>';
+
+					}
+
+					echo $text;
+
+				echo "</div></section>";
+			break;
+
+
+
+
+			case "contact": // todo Find a place for the sub-heading (but not the page/menu table) possibly theme prefs.
+				echo '<div class="col-lg-12 text-center">
+	                    <h2 class="section-heading">'.$caption.'</h2>
+	                    <h3 class="section-subheading text-muted">'.e107::pref('theme', 'contactsubtitle','').'</h3>
+	                </div>';
+
+				  echo '
+			      <div class="row">
+			          <div class="col-lg-8 mx-auto text-center"> '.$text.'
+			          </div>
+			      </div>';
+			break;
+
+
+			case "footer":
+				echo '<h3>'.$caption.'</h3>'.$text;
+			break;
+
+
+			case 'col-md-4':
+			case 'col-md-6':
+			case 'col-md-7':
+				if(!empty($caption))
+				{
+		            echo '<h3>'.$caption.'</h3>';
+				}
+
+				echo $text;
+			break;
+
+
+			case 'menu':
+				echo '<div class="card my-4">
+	            <h5 class="card-header">'.$caption.'</h5>
+	            <div class="card-body">
+	              '.$text.'
+	            </div>
+	          </div>';
+			break;
+
+
+			case 'portfolio':
+				 echo '
+				 <div class="col-lg-4 col-md-4 col-sm-6">
+		            '.$text.'
+				</div>';
+			break;
+
+
+			case 'notags':
+				 echo str_replace(array("<p>","</p>"), "", $text);
+			break;
+
+
+			case 'notitle':
+				echo $text;
+			break;
+
+
+			default:
+				if(!empty($caption))
+				{
+					echo '<h2 class="caption">'.$caption.'</h2>';
+				}
+				echo $text;
+		}
+
+
+		return null;
+
 	}
-	echo $text;					
-	return;
+
 }
+
+
 // for multipage purpose
 $navbartype = 'bg-dark';
 if(THEME_LAYOUT == 'homepage'  )
 {
- $navbartype = "navbar-dark ";
+	$navbartype = "navbar-dark ";
 }
+
+$LAYOUT = array();
+
 
 // applied before every layout. 
 $LAYOUT['_header_'] = '
@@ -223,10 +245,9 @@ $LAYOUT['_header_'] = '
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-         
                 {NAVIGATION=main}
            <ul class="navbar-nav ml-auto">
-         				{BOOTSTRAP_USERNAV: placement=top}
+         		{BOOTSTRAP_USERNAV: placement=top}
           </ul>
         </div>
       </div>
@@ -259,10 +280,12 @@ $LAYOUT['_footer_'] = '
 // $LAYOUT is a combined $HEADER and $FOOTER, automatically split at the point of "{---}"
 
 $LAYOUT['homepage'] =  '
- 
+ {MENU=1}
 <!-- Header -->
 <header class="masthead">
+	
   <div class="container">
+  	{MENU=2}
     <div class="intro-text">
         {SETSTYLE=wm}
         {---} 
@@ -274,22 +297,23 @@ $LAYOUT['homepage'] =  '
   {ALERTS}
 </div>
 
-<!-- Services Section No.1 menu 1 + 11 12 13 -->
-<section id="ourservices" class="">
-    <div class="container">
+{SETSTYLE=section}
+{MENU=3}
 
+
+
+<section id="ourservices">
+    <div class="container">
+			
          	{SETSTYLE=notitle}
         	{CHAPTER_MENUS: name=home-services}
 
     </div>
 </section>
 
-<!-- Portfolio Grid Section No.2 -->
-<section id="portfolio" class="bg-light">
+<section id="portfolio" >
     <div class="container">
- 				    
-					{PORTFOLIOITEMS}
-			 
+		{PORTFOLIOITEMS}	 
    </div>
 </section>
     
@@ -301,7 +325,7 @@ $LAYOUT['homepage'] =  '
 </section>
 
     <!-- Team Section Section N.4 - menu 4 -->
-<section class="bg-light" id="team">
+<section id="team">
   <div class="container">
 
         {CHAPTER_MENUS: name=our-team}
@@ -313,6 +337,14 @@ $LAYOUT['homepage'] =  '
       </div>
   </div>
 </section>
+
+{SETSTYLE=section}
+{MENU=4}
+
+
+
+
+
 
 <!-- Clients Aside Section N. 5 -->
 <section class="py-5">
@@ -377,25 +409,4 @@ $LAYOUT['sidebar_right'] =  '
  ';
  
  
-$NEWSCAT = "\n\n\n\n<!-- News Category -->\n\n\n\n
-	<div style='padding:2px;padding-bottom:12px'>
-	<div class='newscat_caption'>
-	{NEWSCATEGORY}
-	</div>
-	<div style='width:100%;text-align:left'>
-	{NEWSCAT_ITEM}
-	</div>
-	</div>
-";
 
-
-$NEWSCAT_ITEM = "\n\n\n\n<!-- News Category Item -->\n\n\n\n
-		<div style='width:100%;display:block'>
-		<table style='width:100%'>
-		<tr><td style='width:2px;vertical-align:middle'>&#8226;&nbsp;</td>
-		<td style='text-align:left;height:10px'>
-		{NEWSTITLELINK}
-		</td></tr></table></div>
-";
-
-?>

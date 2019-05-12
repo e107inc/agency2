@@ -61,6 +61,7 @@ $NEWS_MENU_TEMPLATE['other2']['end'] 	= "</ul>";
 
 
 // Grid Menu
+/*
 $NEWS_MENU_TEMPLATE['grid']['start']    = '<div class="row news-menu-grid">';
 $NEWS_MENU_TEMPLATE['grid']['item']		= '<div class="item {NEWSGRID}">
 												{SETIMAGE: w=400&h=400&crop=1}
@@ -69,7 +70,7 @@ $NEWS_MENU_TEMPLATE['grid']['item']		= '<div class="item {NEWSGRID}">
               									<p>{NEWSSUMMARY: limit=_summaryLimit_}</p>
               									<p class="text-right"><a class="btn btn-primary btn-othernews" href="{NEWSURL}">'.LAN_READ_MORE.'</a></p>
             							   </div>';
-$NEWS_MENU_TEMPLATE['grid']['end']      = '</div>';
+$NEWS_MENU_TEMPLATE['grid']['end']      = '</div>';*/
 
 
 // $NEWS_MENU_WRAPPER['grid']['NEWSTITLE'] = "<span style='color:red'>{---}</span>"; // example

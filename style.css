@@ -137,6 +137,8 @@ img.logo {
 #login-template h2.caption { text-align:center; font-size:120%; opacity:0.8 }
 #login-template .logo { padding-top:50px; margin-left:auto; margin-right: auto }
 
+.layout-homepage section:nth-child(odd) { background-color: #f8f9fa }
+
 
 /* colors in dropdown menu */
 @media (max-width: 767px)   { 

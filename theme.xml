@@ -15,6 +15,10 @@
 	<screenshots>
 		<image>preview_frontend.jpg</image>
 	</screenshots>
+	<libraries>
+		<library name="bootstrap" version="4" scope="all"/>
+		<library name="fontawesome" version="5" scope="all"/>
+	</libraries>
 	<stylesheets>
 		<css file="style.css" name="Default"  />
 	</stylesheets>
