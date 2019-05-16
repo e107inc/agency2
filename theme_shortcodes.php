@@ -30,6 +30,8 @@
 
 			include_lan(e_PLUGIN . "login_menu/languages/" . e_LANGUAGE . ".php");
 
+			$login_menu_shortcodes = null;
+
 			$tp = e107::getParser();
 		// $login_menu_shortcodes
 			require(e_PLUGIN . "login_menu/login_menu_shortcodes.php"); // don't use 'require_once'.
@@ -122,7 +124,7 @@
 		  <li class="nav-item dropdown">{PM_NAV}</li>
 			 <li class="nav-item  dropdown show">
 			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			   {SETIMAGE: w=20} {USER_AVATAR: shape=circle} ' . USERNAME . ' <b class="caret"></b>
+			   {USER_AVATAR: w=20&h=20&crop=1&shape=circle} ' . USERNAME . ' <b class="caret"></b>
 			  </button>
 			
 			  <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownMenuLink">
@@ -251,7 +253,7 @@
 
 			$text .= ' ' . $sitedisclaimer;
 
-			return e107::getParser()->toHtml($text, true, 'SUMMARY');
+			return e107::getParser()->toHTML($text, true, 'SUMMARY');
 		}
 
 
