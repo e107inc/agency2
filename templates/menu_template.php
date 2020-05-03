@@ -90,12 +90,12 @@
 
 	$MENU_TEMPLATE['portfolio']['end'] 			    = '';
 */
-
-
-    $MENU_TEMPLATE['timeline']['start'] 			= '<div class="row"><div class="col-lg-12 text-center">
-										                    <h2 class="section-heading">{CHAPTER_NAME}</h2>
+ 
+    $MENU_TEMPLATE['timeline']['start'] 			= '<div class="text-center">
+										                    <h2 class="section-heading text-uppercase">{CHAPTER_NAME}</h2>
 										                    <h3 class="section-subheading text-muted">{CHAPTER_DESCRIPTION}</h3>
-										                </div></div><div class="row"><ul class="timeline">{SETIMAGE: w=200&h=200&crop=1}' ;
+														</div> 
+														<ul class="timeline">{SETIMAGE: w=200&h=200&crop=1}' ;
 	$MENU_TEMPLATE['timeline']['body'] 				= '<li {TIMELINE_INVERTED}>
 														    <div class="timeline-image">
 														        <img class="rounded-circle img-fluid" src="{CMENUIMAGE=url}" alt="">
@@ -113,35 +113,35 @@
 	$MENU_TEMPLATE['timeline']['end'] 				= '
 													    <li>
 													        <div class="timeline-image">
-													            <h4>{TIMELINE_FOOTER}</h4>
+													            <h4>{THEME_PREF: code=timelineendtext&default=Time}</h4>
 													        </div>
 													    </li>
 													</ul>
 													</div>
 													';
+ 
 
-
-
-
-	$MENU_TEMPLATE['teammember']['start'] 				= '{SETIMAGE: w=225&h=225&crop=1}<div class="row"><div class="col-lg-12 text-center">
-										                    <h2 class="section-heading">{CHAPTER_NAME}</h2>
-										                    <h3 class="section-subheading text-muted">{CHAPTER_DESCRIPTION}</h3>
-										                </div></div><div class="row">' ;
-	$MENU_TEMPLATE['teammember']['body'] 				= '<div class="col-sm-4">
-										                    <div class="team-member">
-										                        <img src="{CMENUIMAGE=url}" class="img-responsive img-circle" alt="">
-										                        <h4>{CPAGETITLE}</h4>
-										                        <p class="text-muted">{CMENUTITLE}</p>
-										                        <ul class="list-inline social-buttons">
-										                            <li  class="list-inline-item"><a href="{CPAGEFIELD: name=twitter&mode=raw}"><i class="fa fa-twitter"></i></a>
-										                            </li>
-										                            <li  class="list-inline-item"><a href="{CPAGEFIELD: name=facebook&mode=raw}"><i class="fa fa-facebook"></i></a>
-										                            </li>
-										                            <li  class="list-inline-item"><a href="{CPAGEFIELD: name=linkedin&mode=raw}"><i class="fa fa-linkedin"></i></a>
-										                            </li>
-										                        </ul>
-										                    </div>
-										                </div>';
+	$MENU_TEMPLATE['teammember']['start'] 				= '{SETIMAGE: w=225&h=225&crop=1}
+	<div class="text-center">
+		<h2 class="section-heading text-uppercase">{CHAPTER_NAME}</h2>
+		<h3 class="section-subheading text-muted">{CHAPTER_DESCRIPTION}</h3>
+	</div>
+	<div class="row">' ;
+	$MENU_TEMPLATE['teammember']['body'] 				= '
+    <div class="col-lg-4">                        
+      <div class="team-member">                            
+          <img class="mx-auto rounded-circle" src="{CMENUIMAGE=url}" alt="{CPAGETITLE}" />                            
+          <h4>{CPAGETITLE}</h4>                            
+          <p class="text-muted">Lead Designer
+          </p>                            
+          <a class="btn btn-dark btn-social mx-2" href="{CPAGEFIELD: name=twitter&mode=raw}">
+              <i class="fab fa-twitter"></i></a>
+          <a class="btn btn-dark btn-social mx-2" href="{CPAGEFIELD: name=facebook&mode=raw}">
+              <i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-dark btn-social mx-2" href="{CPAGEFIELD: name=linkedin&mode=raw}">
+              <i class="fab fa-linkedin-in"></i></a>                        
+      </div>                    
+    </div> ';
 	$MENU_TEMPLATE['teammember']['end'] 					= '</div>';
 
 

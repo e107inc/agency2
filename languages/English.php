@@ -29,4 +29,6 @@ define("LAN_AG_THEME_15", "No members");                     /*ok*/
 define("LAN_AG_THEME_16", "You Might Also Like");
 define("LAN_AG_THEME_17", "Category : ");
 define("LAN_AG_THEME_18", "Articles");                       /*ok*/
-?>
+
+define("LAN_AG_THEME_19", "Menu");
+

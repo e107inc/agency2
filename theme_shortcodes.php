@@ -12,19 +12,31 @@
 
 	class theme_shortcodes extends e_shortcode
 	{
+		var $override = true;
+		
+		//needed for theme {THEME_PM_NAV}
+		private $pm_prefs       = null;
+		private $pm             = null;
+		private $userReg        = false;
+		// theme config
+		private $themePrefs       = null;
 
-		/**
-		 * Return raw HTML-usable values from page fields.
-		 * @experimental subject to change without notice.
-		 * @param null $parm
-		 * @return mixed
-		 */
-		/**
-		 * Return raw HTML-usable values from page fields.
-		 * @experimental subject to change without notice.
-		 * @param null $parm
-		 * @return mixed
-		 */
+		function __construct()
+		{
+			//needed for theme {THEME_PM_NAV}
+			if( e107::isInstalled('pm') )
+			{
+				e107::includeLan(e_PLUGIN.'pm/languages/'.e_LANGUAGE.'.php');
+				require_once(e_PLUGIN."pm/pm_func.php");
+		
+				$this->pm = new pmbox_manager();      
+				$this->pm_prefs = $this->pm->prefs();	
+			}
+
+			$this->themePrefs = e107::pref('theme');
+				 
+		}
+ 
 		function sc_bootstrap_usernav($parm = '')
 		{
 
@@ -33,7 +45,7 @@
 			$login_menu_shortcodes = null;
 
 			$tp = e107::getParser();
-		// $login_menu_shortcodes
+			// $login_menu_shortcodes
 			require(e_PLUGIN . "login_menu/login_menu_shortcodes.php"); // don't use 'require_once'.
 
 			$userReg = defset('USER_REGISTRATION');
@@ -100,7 +112,7 @@
 					   <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownLoginLink" style="min-width:250px; padding: 15px; padding-bottom: 0px;">
 						  ' . $loginform . '
 					   </div>
-				</li>';
+					</li>';
 
 				$text .= '';
 
@@ -119,24 +131,65 @@
 				$adminlink = '';
 			}
 
-
-			$text = '
-		  <li class="nav-item dropdown">{PM_NAV}</li>
+			if( e107::isInstalled('pm') )
+			{
+				$text .= '<li class="nav-item dropdown">{THEME_PM_NAV}</li>';
+			}
+			$text .= '
 			 <li class="nav-item  dropdown show">
 			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			   {USER_AVATAR: w=20&h=20&crop=1&shape=circle} ' . USERNAME . ' <b class="caret"></b>
 			  </button>
-			
-			  <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-			    <a class="dropdown-item" href="{LM_USERSETTINGS_HREF}"><span class="fa fa-cog"></span> ' . LAN_SETTINGS . '</a>
-			    <a class="dropdown-item" href="{LM_PROFILE_HREF}"><span class="fa fa-user"></span> ' . LAN_LOGINMENU_13 . '</a>
+			  <ul class="dropdown-menu nav-item dropdown">
+			  	<li class="nav-item dropdown"><a class="dropdown-item"  href="{LM_USERSETTINGS_HREF}"><span class="fa fa-cog"></span> ' . LAN_SETTINGS . '</a></li>
+				<li class="nav-item dropdown"><a class="dropdown-item" href="{LM_PROFILE_HREF}"><span class="fa fa-user"></span> ' . LAN_LOGINMENU_13 . '</a></li>
 			    ' . $adminlink . '
-			    <a class="dropdown-item" href="' . e_HTTP . 'index.php?logout"><span class="fa fa-sign-out"></span> ' . LAN_LOGOUT . '</a>
-			  </div>
-			</li>
- ';
+			    <li class="nav-item dropdown"><a class="dropdown-item" href="' . e_HTTP . 'index.php?logout"><span class="fa fa-sign-out"></span> ' . LAN_LOGOUT . '</a></li>
+			  </ul>
+			</li>';
 
 			return $tp->parseTemplate($text, true, $login_menu_shortcodes);
+		}
+
+		/* {THEME_PM_NAV} */
+		function sc_theme_pm_nav($parm = NULL)
+		{
+			$tp = e107::getParser();
+	
+			if(!check_class($this->pm_prefs['pm_class']))
+			{
+				return null;
+			}
+			
+			$mbox = $this->pm->pm_getInfo('inbox');
+		
+			if(!empty($mbox['inbox']['new']))
+			{
+				$count = " <span class='badge badge-danger'> ".$mbox['inbox']['new']."</span>";
+				$class = 'btn btn-primary btn-fill ';
+				$icon = '<i class="fa fa-envelope"></i>';
+			}
+			else
+			{
+				$class = 'btn btn-secondary btn-fill ';
+				$icon = '<i class="fa fa-envelope"></i>';
+				$count = '';
+			}
+
+			$urlInbox = e107::url('pm','index','', array('query'=>array('mode'=>'inbox')));
+			$urlOutbox = e107::url('pm','index','', array('query'=>array('mode'=>'outbox')));
+			$urlCompose = e107::url('pm','index','', array('query'=>array('mode'=>'send')));
+
+			return '<button class="dropdown-toggle '.$class.'"  data-toggle="dropdown" href="#">'.$icon.$count.'</button>
+				<ul class="dropdown-menu nav-item dropdown">
+				<li class="nav-item dropdown">
+
+					<a class="dropdown-item" href="'.$urlInbox.'">'.LAN_PLUGIN_PM_INBOX.'</a>
+					<a class="dropdown-item" href="'.$urlOutbox.'">'.LAN_PLUGIN_PM_OUTBOX.'</a>
+					<a class="dropdown-item" href="'.$urlCompose.'">'.LAN_PLUGIN_PM_NEW.'</a>
+
+				</li>
+			</ul>';
 		}
 
 		/**
@@ -235,12 +288,6 @@
 
 			return ($pairing ? '' : 'class= "timeline-inverted" ');
 		}
-
-		function sc_timeline_footer()
-		{
-			return e107::pref('theme', 'timelineendtext', '');
-		}
-
  
 		function sc_sitedisclaimer($copyYear = null)
 		{
@@ -279,7 +326,21 @@
 				return e107::getRender()->tablerender(LANCONTACT_00, $text, 'contact-menu');
 			}
 		}
+
+		function sc_theme_pref($parm = array() ) 
+		{ 
+			$name = $parm['code'];
+			if(!isset($name)) 
+			{
+			return "";
+			}
+			$default = $parm['default'];
+
+			$value = $this->themePrefs[$name];
+
+			$value = varset($value, $default);
+
+			return $value; 
+
+		}
 	}
-
-
-?>

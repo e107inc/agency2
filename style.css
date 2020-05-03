@@ -45,19 +45,7 @@ header .intro-text .intro-heading p {
     background-color: #222;
     border-color: #222;
 }
-
-footer {
-    padding: 25px 0;
-    text-align: center;
-    background: #222;
-    color: #fff;
-}
-
-.layout-homepage footer {
-  background: white;
-  color: #222;
-}        
-
+ 
 
 ul.social-buttons li a {
     background-color: #fed136;
@@ -150,3 +138,4 @@ img.logo {
 	    color: white;
 	}
 }
+

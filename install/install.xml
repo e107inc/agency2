@@ -1472,4 +1472,12 @@
 		</item>
 	</dbTable>
 	</database>
+	<themePrefs>
+		<agency2 name="timelineendtext"><![CDATA[Be Part<br>Of Our<br>Story!]]></agency2>
+		<agency2 name="textafterteam">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</agency2>
+		<agency2 name="contactsubtitle"></agency2>
+		<agency2 name="headerbackground"></agency2>
+		<agency2 name="inlinecss"></agency2>
+		<agency2 name="inlinejs"></agency2>
+	</themePrefs>
 </e107Export>
