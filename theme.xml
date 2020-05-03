@@ -23,7 +23,7 @@
 	</stylesheets>
 	<layouts>
 		<layout name='homepage' title='Home Page' >
-				<custompages>FRONTPAGE</custompages>
+			<custompages>FRONTPAGE</custompages>
 		</layout>
 		<layout name='full' title='Full width page' >
 			<custompages>forum.php  /forum/</custompages>

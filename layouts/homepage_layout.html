@@ -80,22 +80,13 @@
         </div>
     </div>
 </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    {SETSTYLE=notitle}
-                		{MENU=5}
-                </div>
-            </div>
-            <div class="row"> {SETSTYLE=contact}
-                <div class="col-lg-12">
-                    {AGENCY_CONTACTFORM}
-                </div>
-            </div>
-        </div>
-    </section> 
+<section class="page-section" id="contact">
+	<div class="container">
+		<form id="contactForm" name="sentMessage" novalidate="novalidate">
+			{SETSTYLE=contact}
+			{AGENCY_CONTACTFORM}
+		</form>
+	</div>
+</section>
  
 
