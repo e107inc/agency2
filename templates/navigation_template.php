@@ -7,7 +7,7 @@
 */
 
 // TEMPLATE FOR {NAVIGATION=main}
-$NAVIGATION_TEMPLATE['main']['start'] = '';
+$NAVIGATION_TEMPLATE['main']['start'] = ' <ul class="navbar-nav ml-auto">';
 
 // Main Link
 $NAVIGATION_TEMPLATE['main']['item'] = '
@@ -47,7 +47,7 @@ $NAVIGATION_TEMPLATE['main']['item_submenu_active'] = '
 	</li>
 ';	
 
-$NAVIGATION_TEMPLATE['main']['end'] = '';	
+$NAVIGATION_TEMPLATE['main']['end'] = '</ul>';	
 
 // Sub menu 
 $NAVIGATION_TEMPLATE['main']['submenu_start'] = '
