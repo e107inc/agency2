@@ -22,14 +22,14 @@ e107::css('url', 		'https://fonts.googleapis.com/css?family=Montserrat:400,700')
 e107::css('url', 		'https://fonts.googleapis.com/css?family=Kaushan+Script');
 e107::css('url', 		'https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic');
 e107::css('url', 		'https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
- 
-e107::css("theme", "css/styles.css" );
+//e107::css("theme", "css/agency.min.css" );
+e107::css("theme", "css/agency.css" );
 e107::css("theme", "css/custom.css" );
- 
 
-e107::js("footer", 	'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js', 'jquery');
-e107::js("footer", 	'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js', 'jquery');
-e107::js("theme", 	'js/script.js', 'jquery'); 
+e107::js("footer", 	'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js', 'jquery');
+//e107::js("theme", 	'js/jqBootstrapValidation.js"', 'jquery');
+//e107::js("theme", 	'js/contact_me.js', 'jquery');
+e107::js("theme", 	'js/agency.min.js', 'jquery'); 
 
 
 /* originally hardcoded in style.css NEED BE CHECKED */
@@ -54,9 +54,25 @@ define('BODYTAG', '<body id="page-top" data-spy="scroll" class="index layout-'.T
  
 
 //e107::js("footer-inline", 	"$('.e-tip').tooltip({container: 'body'})"); // activate bootstrap tooltips. 
+
+// Legacy Stuff.
+define('OTHERNEWS_COLS',false); // no tables, only divs. 
+define('OTHERNEWS_LIMIT', 3); // Limit to 3. 
+define('OTHERNEWS2_COLS',false); // no tables, only divs. 
+define('OTHERNEWS2_LIMIT', 3); // Limit to 3. 
  
-$imagepath = e_THEME_ABS.'agency2/install/';
+ // see issue https://github.com/e107inc/e107/issues/2927
+define('ICONMAIL',  "email.png");
+define('ICONPRINT', "print.png"); 
+define('COMMENTLINK', "<img src='".THEME_ABS."images/comments.png' alt='".LAN_COMMENTS."'  />");
+
   
+define('COMMENTOFFSTRING', '');
+
+define('PRE_EXTENDEDSTRING', '<br />');
+
+$imagepath = e_THEME_ABS.'agency2/install/';
+
 
 class agency2_theme
 {
