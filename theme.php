@@ -135,11 +135,7 @@ class theme implements e_theme_render
 			case "comment_menu":
 			case "login":
 			case "news-archive-menu":
-			case "news_latest_menu":
 				$style = "cardmenu";
-			break;
-			case "contact":
-				$style = "contact";
 			break;
 
 		}
@@ -156,10 +152,6 @@ class theme implements e_theme_render
 		switch($style)
 		{
  
-			case "wm":
-				echo '<div class="masthead-subheading">'.$caption.'</div>';
-				echo '<div class="masthead-heading text-uppercase">'.$text.'</div>';
-			break;
 			case "section":
 				echo '<section>
 				<div class="container">';
@@ -184,7 +176,11 @@ class theme implements e_theme_render
 				<h3 class="section-subheading text-muted">'.e107::pref('theme', 'contactsubtitle','').'</h3>
 					</div>';
 
-				echo $text;			
+				echo '
+				<div class="row">
+					<div class="col-lg-8 mx-auto text-center"> '.$text.'
+					</div>
+				</div>';			
 			break;
 			case "footer":
 				echo '<h3>'.$caption.'</h3>'.$text;

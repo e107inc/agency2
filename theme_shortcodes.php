@@ -323,7 +323,7 @@
 				$contact_shortcodes = e107::getScBatch('contact');
 				$foot = '</form>';
 				$text = e107::getParser()->parseTemplate($head . $template . $foot, true, $contact_shortcodes);
-				return e107::getRender()->tablerender(LANCONTACT_00, $text, 'contact');
+				return e107::getRender()->tablerender(LANCONTACT_00, $text, 'contact-menu');
 			}
 		}
 
